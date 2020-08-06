@@ -1,0 +1,208 @@
+html {
+	background-color: rgb(0, 0, 0,0.85);
+}
+
+body {
+	background-image: url(https://cdn.discordapp.com/attachments/587307618155102257/730354502208847962/wwo_world.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	font-size: 16.5px;
+	font-family: Verdana;
+	overflow-wrap: break-word;
+}
+
+.page {
+	background-color: rgb(0, 0, 0,0.8);
+}
+
+#date {
+	width: 90%;
+	padding: 3%;
+	font-size: 45px;
+}
+
+.list_and_buttons {
+	width: 80%;
+	padding: 1% 10%;
+	display: flex;
+	flex-direction: row;
+	padding: none;
+	justify-content: center;
+}
+
+.list_categories {
+	display: grid;
+	width: 80%;
+	grid-template-columns: 1fr 1fr;
+}
+
+.list_category {
+	text-align: center;
+    display: default;
+    width: 95%;
+    margin: 10px;
+	border: 1px solid white;
+}
+
+.anniversary_notifications {
+	grid-column-end: span 2;
+	border: 1px solid white;
+	width: 97.5%;
+	margin: 10px;
+}
+
+.events_log_boxes {
+	display: flex;
+	flex-direction: row;
+}
+.event_log_box {
+	width: 50%;
+}
+
+.events_log {
+	line-height: 28px;
+	margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .list_and_buttons {
+  	width: 100%;
+  	padding: 1% 0%;
+  }
+  .list_categories {
+	grid-template-columns: 1fr;
+  }
+  .list_category, .anniversary_notifications {
+    margin: 10px 0px;
+    width: 100%;
+  }
+  .anniversary_notifications {
+	grid-column-end: span 1;
+  }
+  .events_log_boxes {
+  	flex-direction: column;
+  }
+  .event_log_box {
+	width: 90%;
+  }
+}
+
+[class*="titre"] {
+	font-size: 22px;
+	margin-bottom: 4px;
+}
+
+.rang {
+	justify-content: center;
+	margin: 5% 25%;
+	width: 50%;
+}
+
+h3 {
+	background: rgb(0, 0, 0,0.3);
+	margin: auto;
+	padding: 20px;
+	font-size: 35px;
+}
+
+button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 70px;
+	height: 68px;
+	overflow-wrap: break-word;
+}
+
+.date_pick {
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	background: white;
+}
+
+.button_row {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.spacer {
+	height: 100%;
+}
+
+.bouton_back, .bouton_forward {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  display: inline-block;
+}
+
+.bouton_back {
+	justify-content: right;
+	align-items: right;
+	text-align: right;
+	width: 100px;
+}
+
+.bouton_forward {
+	justify-content: left;
+	align-items: left;
+	text-align: left;
+	width: 100px;
+}
+
+.bouton_bas {
+	display: inline-block;
+	justify-content: bottom;
+	align-items: bottom;
+	text-align: bottom;
+	margin: 0% 25% 0% 0%;
+}
+.copy {
+	margin: 0% 0% 0% 25%;
+}
+
+.megamod_titre {
+	color: #CF5050;
+}
+.mod_titre {
+	color: #da685c;
+}
+.minimod_titre {
+	color: #e1823b;
+}
+.trialminimod_titre {
+	color: #ed904a;
+}
+.helper_titre {
+	color: #dfac39;
+}
+.trialhelper_titre {
+	color: #d7bf4c;
+}
+.mentor_titre {
+	color: #f26f93;
+}
+.mentor_manager_titre {
+	color: #f2557f;
+}
+.guardian_titre {
+	color: #18d0ff;
+}
+.guardian_manager_titre {
+	color: #00b1ff;
+}
+.social_media [class*="titre"] {
+	color: #747ad3;
+}
+
+.credits {
+  width: 100%;
+  background-color: rgb(0,0,0,0.8);
+  text-align: center;
+  padding: 20px 0;
+  padding-top: 40px;
+}

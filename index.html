@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arnaud's time machine</title>
+	<link rel="stylesheet" type="text/css" href="TimeMachine.css">
+	<script src="TimeMachine.js"></script> 
+	<link rel="icon" href="https://cdn.discordapp.com/attachments/708636816667836498/710974072154226780/twitter-badge2.png">
+</head>
+<body onload="date_reset()">
+	<div class="page">
+		<div id="date">Staff on the X/X/20XX</div>
+
+		<div class="list_and_buttons"> 
+
+			<div class="button_row">
+				<div class="bouton_back">
+					<button onclick="date_moins(86400000)">&laquo; Go back by a day</button>
+					<button onclick="date_moins(86400000*7)" class="bouton_back_week">&laquo; Go back by a week</button>
+					<button onclick="date_moins(86400000*30)" class="bouton_back_month">&laquo; Go back by a month</button>
+				</div>
+				<div class="spacer"></div>
+				<div class="bouton_back">
+					<button onclick="date_moins(86400000)">&laquo; Go back by a day</button>
+					<button onclick="date_moins(86400000*7)" class="bouton_back_week">&laquo; Go back by a week</button>
+					<button onclick="date_moins(86400000*30)" class="bouton_back_month">&laquo; Go back by a month</button>
+				</div>
+			</div>
+
+			<div class="list_categories">
+
+				<div class="anniversary_notifications">
+					<h3>Events</h3>
+					<div class="events_log_boxes">
+						<div class="event_log_box today">
+							<h4>Today</h4>
+							<div class="events_log"></div>
+						</div>
+						<div class="event_log_box tomorrow">
+							<h4>Tomorrow</h4>
+							<div class="events_log"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="list_category">
+					<h3>Discord Staff</h3>
+					<div class="role_list">
+
+						<div class="megamod rang">
+							<div class="megamod_titre">
+								Megamod
+							</div>
+							<div id="megamod">
+								Lisa
+							</div>
+						</div>
+
+
+						<div class="mod rang">
+							<div class="mod_titre">
+								Mod
+							</div>
+							<div id="mod">
+								Arnaud <br>
+							</div>
+						</div>
+
+
+						<div class="minimod rang">
+							<div class="minimod_titre">
+								Minimod
+							</div>
+							<div id="minimod">
+								Blep <br>
+								Hyde <br>
+								Majestical <br>
+								Sonblo <br>
+								Wire <br>
+							</div>
+						</div>
+
+						<div class="trialminimod rang">
+							<div class="trialminimod_titre">
+								Trial minimod
+							</div>
+							<div id="trialminimod">
+							</div>
+						</div>
+
+						<div class="helper rang">
+							<div class="helper_titre">
+								Helper
+							</div>
+							<div id="helper">
+								Captain <br>
+								Geekid <br>
+								Notkar <br>
+								Nexo <br>
+								Min <br>
+								Necrie <br>
+								Surprise <br>
+								Seho <br>
+							</div>
+						</div>
+
+						<div class="trialhelper rang">
+							<div class="trialhelper_titre">
+								Trial Helper
+							</div>
+							<div id="trialhelper">
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+				<div class="list_category">
+					<h3>Mentor chat</h3>
+					<div class="role_list">
+						<div class="mentor_manager rang">
+							<div class="mentor_manager_titre">
+								Mentor manager
+							</div>
+							<div id="mentormanager">
+								Lisa<br>
+								Mmaarten
+							</div>
+						</div>
+
+						<div class="mentor rang">
+							<div class="mentor_titre">
+								Mentor
+							</div>
+							<div id="mentor">
+								Amelia<br>
+								Terka<br>
+								Vasi<br>
+								Briann<br>
+								Sonblo<br>
+								Neko<br>
+								Sheepy<br>
+								Weri<br>
+								Rider<br>
+								Prof.xv<br>
+								Arnaud<br>
+								Jojolapin<br>
+								Louveblanche<br>
+								Phoenix<br>
+								Mirreska<br>
+								Masha<br>
+								Seho<br>
+								Ratbaby<br>
+								Cherry<br>
+								Imge<br>
+								Raind<br>
+								Tisery<br>
+								Maffin<br>
+								Hyde<br>
+								Gui
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="list_category">
+					<h3>In-game moderation</h3>
+					<div class="role_list">
+
+						<div class="guardian_manager rang">
+							<div class="guardian_manager_titre">
+								Guardian manager
+							</div>
+							<div id="guardianmanager">
+								Sharon
+							</div>
+						</div>
+
+						<div class="guardian rang">
+							<div class="guardian_titre">
+								Guardian
+							</div>
+							<div id="guardian">
+								Anemona<br>
+								Vertrudo<br>
+								Renard<br>
+								Catjojo<br>
+								Boy<br>
+								Lylysonn<br>
+								Judetta<br>
+								Oliver<br>
+								Puigui<br>
+								Rikslyde
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="list_category">
+					<h3>Social media</h3>
+					<div class="role_list social_media">
+
+						<div class="reddit rang">
+							<div class="reddit_titre">
+								Reddit
+							</div>
+							<div id="reddit">
+								Maffin
+							</div>
+						</div>
+
+						<div class="instagram rang">
+							<div class="instagram_titre">
+								Instagram
+							</div>
+							<div id="instagram">
+								Duden<br>
+								Sharon<br>
+								Stef<br>
+								Bunno
+							</div>
+						</div>
+
+						<div class="facebook rang">
+							<div class="facebook_titre">
+								Facebook
+							</div>
+							<div id="facebook">
+								Lisa<br>
+								Arnaud<br>
+								Hyde<br>
+								Chris phil
+							</div>
+						</div>
+
+						<div class="twitter rang">
+							<div class="twitter_titre">
+								Twitter
+							</div>
+							<div id="twitter">
+								Chris phil
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="button_row">
+				<div class="bouton_forward">
+					<button onclick="date_plus(86400000)">Go forward by a day &raquo;</button>
+					<button onclick="date_plus(86400000*7)" class="bouton_forward_week">Go forward by a week &raquo;</button>
+					<button onclick="date_plus(86400000*30)" class="bouton_forward_month">Go forward by a month &raquo;</button>
+				</div>
+				<div class="spacer"></div>
+				<div class="bouton_forward">
+					<button onclick="date_plus(86400000)">Go forward by a day &raquo;</button>
+					<button onclick="date_plus(86400000*7)" class="bouton_forward_week">Go forward by a week &raquo;</button>
+					<button onclick="date_plus(86400000*30)" class="bouton_forward_month">Go forward by a month &raquo;</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="credits">
+				<p>
+				Website done and maintained by Arnaud#0865, contact via discord for any feedback <br> <br>
+				All logos and art from Werewolf online are made by Philipp Eichhorn and Emanuel Eimer, the background-image has been created by Lazarck#4756.
+				</p>
+		</div>
+	</div>
+</body>
+</html>
