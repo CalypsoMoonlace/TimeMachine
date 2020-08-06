@@ -1985,7 +1985,7 @@ function update() {
 		}
 		if ((staff_birthdays[staff_member] == birthday_check)&&(staff_member=="WWO")) {
 			result = "It is " + staff_member + "'s birthday today!"
-			document.getElementsByClassName('events_log')[1].innerHTML+= "<span style='color: #4287f5; font-weight: bold;'>" + result + "</span><br>"
+			document.getElementsByClassName('events_log')[0].innerHTML+= "<span style='color: #4287f5; font-weight: bold;'>" + result + "</span><br>"
 		}
 		if ((staff_birthdays[staff_member] == birthday_check_2)&&(staff_member=="WWO")) {
 			result = "It is " + staff_member + "'s birthday tomorrow!"
