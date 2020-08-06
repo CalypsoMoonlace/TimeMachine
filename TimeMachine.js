@@ -941,7 +941,7 @@ var theking = {
 	minimod: 1593351726
 }
 var mindflayer = {
-	name: "Mindflayer",
+	name: "Flayer",
 	current_value: "helper",
 	id: 464536529231020042,
 	trialhelper: 1583085566,
@@ -956,7 +956,7 @@ var caps = {
 	no_more_staff: 1587027114
 }
 var aspectus = {
-	name: "Aspectus",
+	name: "Bae",
 	current_value: "helper",
 	id: 346380821462253568,
 	trialhelper: 1589718269,
@@ -986,7 +986,7 @@ var phoenix = {
   	helper: 1593524526
 }
 var weri = {
-	name: "Weriswolfie",
+	name: "Weri",
 	current_value: "minimod",
 	id: 587215372462194698,
 	trialhelper: 1592919726,
@@ -996,9 +996,10 @@ var weri = {
 }
 var flamingoboi = {
 	name: "FlamingoBoi",
-	current_value: "trialhelper",
+	current_value: "no_more_staff",
 	id: 330101556299169792,
 	trialhelper: 1595782560,
+	no_more_staff: 1596356936
 }
 var shadow = {
 	name: "Shadow",
@@ -1017,6 +1018,32 @@ var mayo = {
 	current_value: "trialhelper",
 	id: 670709032184446976,
 	trialhelper: 1595782560,
+}
+var kryptonomega = {
+	name: "KryptonOmega",
+	current_value: "trialhelper",
+	trialhelper: 1596356936,
+}
+var duden = {
+	name: "Duden",
+	current_value: "trialhelper",
+	trialhelper: 1596356936,
+}
+var joko = {
+	name: "Joko",
+	id: 445918124995510272,
+	current_value: "trialhelper",
+	trialhelper: 1596356936,
+}
+var kinglion = {
+	name: "King Lion",
+	current_value: "trialhelper",
+	trialhelper: 1596356936,
+}
+var peppa = {
+	name: "Peppa",
+	current_value: "trialhelper",
+	trialhelper: 1596356936,
 }
 
 // mentor list
@@ -1078,7 +1105,7 @@ var jojolapin = {
 	current_value: "mentor",
 	mentor: 1570611520
 }
-var phoenix = {
+var phoenix_mentor = {
 	name: "Phoenix",
 	current_value: "mentor",
 	mentor: 1591693120
@@ -1726,11 +1753,12 @@ var discord_staff_list = [ace,thealexgamer,alexrtm,angel,apmai,armads,arnaud,aus
 					koreanking,krackjack,kryss,leo,lextrin,lgcc,lisa,levi,lonely_bunny,loyinhung,lucien,maffin,master,martinec,maje,
 					majestic_pink,maya,mh,malex,miller,milky,misterz,min,myrros,nathaniel,necrie,nexo,notkar,obey,ocelot,oldsock,
 					omnes,owl,pancake,pumpkin,prominence,prometheus,quinn,rolino,selimrecep,seho,sergiu,sharon,sonblo,surprise,
-					space,squidly,steamy,torochan,tetinowa,tezlie,tytgamer,ubksu,vic,wepi,wire,wood,zevroy,chee,
-					uninstall,sheepy,theking,mindflayer,caps,aspectus,mashi,yan,phoenix,weri,flamingoboi,shadow,groot,mayo]
+					space,squidly,steamy,torochan,tetinowa,tezlie,tytgamer,ubksu,vic,wepi,wire,wood,zevroy,chee,uninstall,sheepy,
+					theking,mindflayer,caps,aspectus,mashi,yan,phoenix,weri,flamingoboi,shadow,groot,mayo,kryptonomega,duden,joko,
+					kinglion,peppa]
 
-var mentor_list = [lisa_mentor,mmaarten,maffin_mentor,ratbaby,terka,leo_mentor,chee_mentor,boy,rider,jojolapin,phoenix,gui,mirreska,amelia,
-				cherry_mentor,hyde_mentor,arnaud_mentor,vasi,ocelot_mentor,sheepy_mentor,brianndm423,sonblo_mentor,prof,louveblanche,
+var mentor_list = [lisa_mentor,mmaarten,maffin_mentor,ratbaby,terka,leo_mentor,chee_mentor,boy,rider,jojolapin,phoenix_mentor,gui,mirreska,
+				amelia,cherry_mentor,hyde_mentor,arnaud_mentor,vasi,ocelot_mentor,sheepy_mentor,brianndm423,sonblo_mentor,prof,louveblanche,
 				weri_mentor,mashi_mentor,raind,tisery,seho_mentor,imge_mentor,cloudy_mentor,jackest,n0ob,mlapine,ioannis_mentor,lucien_mentor,
 				sujupetalz_mentor,wepi_mentor,maya_mentor,sharon_mentor,william,misterz_mentor,apmai_mentor,johnysaur_mentor,karou,nathaniel_mentor,
 				milky_mentor,boyco_mentor,lgcc_mentor,alphaBeauchmin,dolan,khang,cinders,jort_mentor,stops,miller_mentor,casper_mentor,
@@ -1750,6 +1778,7 @@ var whole_staff_list = [discord_staff_list,mentor_list,guardian_list,social_medi
 var special_dates = [staff_birthdays,other_dates]
 
 var staff_birthdays = {
+	Bae: "4/1",
 	ProfXV: "15/1",
 	Necrie: "20/1",
 	Anemona: "21/1",
@@ -1758,7 +1787,7 @@ var staff_birthdays = {
 	Oliver: "16/2",
 	ClankFilippo: "1/3",
 	Vasi: "9/3",
-	Mindflayer: "22/3",
+	Flayer: "22/3",
 	Terka: "25/3",
 	LouveBlanche: "27/3",
 	Vertrudo: "1/4",
