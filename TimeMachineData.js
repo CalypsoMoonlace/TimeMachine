@@ -1751,10 +1751,42 @@ var maya_guardian = {
 	guardian: 1539773829,
 	no_more_staff: 1553019031
 }
+var pan_guardian = {
+	name: "IPan",
+	current_value: "guardian",
+	guardian: 1597440040
+}
+var master_guardian = {
+	name: "Master",
+	current_value: "guardian",
+	guardian: 1597440040
+}
+var cathy = {
+	name: "Cathy",
+	current_value: "guardian",
+	guardian: 1597440040
+}
+var hubble = {
+	name: "Hubble",
+	current_value: "guardian",
+	guardian: 1597440040
+}
+var ravenw = {
+	name: "RavenW",
+	current_value: "guardian",
+	guardian: 1597440040
+}
+var teyzeniz = {
+	name: "Teyzeniz",
+	current_value: "guardian",
+	guardian: 1597440040
+}
+
 // 1526404669 is 5/15/2018
 // 1528823110 is mentor start
 // 1539594154 is smm start
 // 1530183429 is guard start
+
 var discord_staff_list = [ace,thealexgamer,alexrtm,angel,apmai,armads,arnaud,aushy,behemoth,bestbud,blep,bluu,boyco,bryduz,brendan,camp,captain,
 					carol,casper,cherry,cloudy,coolguy,copelia,crush,dario,devi,deniz,dievaitis,djocko,dice,doorfruit,dunzap,drakarta,
 					eyal,falvader,geekid,goati,golem,gum,gryduz,henriql,hyde,icy,inky,imge,ivjo,ioannis,ja,jort,johnysaur,kingsho,
@@ -1776,7 +1808,7 @@ var mentor_list = [lisa_mentor,mmaarten,maffin_mentor,ratbaby,terka,leo_mentor,c
 var guardian_list = [sharon_guardian,artemiis,kem,ioannis_guardian,mlapine_guardian,prometheus_guardian,lucien_guardian,jort_guardian,
 					casper_guardian,penguin,nottapl,quinn_guardian,miller_guardian,william_guardian,myrros_guardian,
 					jan,alysonn,boy_guardian,koreanking_guardian,catjojo,oliver,renard,sionny,jake,judetta,rikslyde,puigui,anemona,vertrudo,
-					clankfilippo,maya_guardian]
+					clankfilippo,maya_guardian,pan_guardian,master_guardian,cathy,hubble,ravenw,teyzeniz]
 
 var social_media_list = [maffin_smm,chris,chris_tw,lisa_smm,arnaud_smm,hyde_smm,camp_smm,sharon_smm,crush_smm,duden_smm,stef,bunni_smm,maya_smm,
 						lucien_smm,milky_smm,prometheus_smm]
