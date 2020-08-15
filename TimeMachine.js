@@ -9,6 +9,7 @@ var positions_result_text = {
 	trialminimod: "Trial Minimod",
 	minimod: "Minimod",
 	minimod_duplicate: "Minimod (for the second time)",
+	minimod_triplicate: "Minimod (for the third time)",
 	mod: "Moderator",
 	mod_duplicate: "Moderator (for the second time)",
 	megamod: "Megamod",
@@ -98,7 +99,7 @@ function update() {
 	birthday_check_2 = jour + "/" + (mois+1); // for staff bd
 
 	if (time_simulation >= unix_today) {
-		document.getElementsByClassName('bouton_forward')[0].style.visibility = "hidden"; // remove option to further if today
+		//document.getElementsByClassName('bouton_forward')[0].style.visibility = "hidden"; // remove option to further if today
 		document.getElementsByClassName('bouton_forward')[1].style.visibility = "hidden";
 	} else {
 		document.getElementsByClassName('bouton_forward')[0].style.visibility = "visible"; 
@@ -296,6 +297,9 @@ function update() {
 								place_to_go = "helper";
 							}
 							if (Object.keys(staff_member)[part_of_the_object_used]=="minimod_duplicate") {
+								place_to_go = "minimod";
+							}
+							if (Object.keys(staff_member)[part_of_the_object_used]=="minimod_triplicate") {
 								place_to_go = "minimod";
 							}
 							if (Object.keys(staff_member)[part_of_the_object_used]=="mod_duplicate") {
