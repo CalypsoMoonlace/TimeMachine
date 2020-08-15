@@ -524,11 +524,11 @@ var lucien = {
 	name: "Lucienbl",
 	current_value: "no_more_staff",
 	id: 383299491496722432, // & 538776496643244048 new acc
-	minimod_duplicate: 1525713469,
-	mod: 1526404669,
+	minimod: 1525713469,
+	mod: 1529052841,
 	minimod_duplicate: 1532539069, // refer to https://cdn.discordapp.com/attachments/443532667137294336/471648111496921099/unknown.png
 	helper: 1533748669,
-	minimod: 1534272916,
+	minimod_triplicate: 1534272916, // only case of triple role recorded
 	no_more_staff: 1544721469
 }
 var quinn = {
@@ -1042,8 +1042,9 @@ var ricky = {
 }
 var lucky = {
 	name: "Lucky",
-	current_value: "trialhelper",
+	current_value: "no_more_staff",
 	trialhelper: 1596964181,
+	no_more_staff: 1597400789
 }
 var box = {
 	name: "Box",
@@ -1611,12 +1612,6 @@ var gryduz_guardian = {
 	current_value: "no_more_staff",
 	guardian: 1530701829,
 	no_more_staff: 1532539069
-}
-var lucien_guardian = {
-	name: "Lucienbl",
-	current_value: "no_more_staff",
-	guardian: 1530183429,
-	no_more_staff: 1553770629
 }
 var casper_guardian = {
 	name: "Casper",
