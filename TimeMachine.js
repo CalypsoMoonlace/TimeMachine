@@ -99,7 +99,7 @@ function update() {
 	birthday_check_2 = jour + "/" + (mois+1); // for staff bd
 
 	if (time_simulation >= unix_today) {
-		//document.getElementsByClassName('bouton_forward')[0].style.visibility = "hidden"; // remove option to further if today
+		document.getElementsByClassName('bouton_forward')[0].style.visibility = "hidden"; // remove option to further if today
 		document.getElementsByClassName('bouton_forward')[1].style.visibility = "hidden";
 	} else {
 		document.getElementsByClassName('bouton_forward')[0].style.visibility = "visible"; 
