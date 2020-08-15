@@ -24,7 +24,7 @@ var positions_result_text = {
 	reddit: "Social media manager (reddit)",
 	twitter: "Social media manager (twitter)"
 }
-var position_text_index;
+var position_text_index,part_of_the_object_used;
 var jour,mois,year;
 
 var ligne = {
@@ -235,7 +235,7 @@ function update() {
 			staff_member = whole_staff_list[j][i];
 			//console.log(i); for tests
 			amount_of_change = Object.keys(whole_staff_list[j][i]).length; // amount of time the staff member changed status 
-			for (var part_of_the_object_used = 2; part_of_the_object_used < amount_of_change; part_of_the_object_used++) { // for loop so it checks every 'status' (starts at 2 bc of "current status" & 'name') // note: doesn't include "id"
+			for (part_of_the_object_used = 2; part_of_the_object_used < amount_of_change; part_of_the_object_used++) { // for loop so it checks every 'status' (starts at 2 bc of "current status" & 'name') // note: doesn't include "id"
 				
 				if (((time_simulation/1000)-31622400 < staff_member[Object.keys(staff_member)[part_of_the_object_used]]) // event anniversary thing
 					&& ((time_simulation/1000)-31622400+86400 > staff_member[Object.keys(staff_member)[part_of_the_object_used]])) {
@@ -289,7 +289,7 @@ function update() {
 					//console.log(result)
 					if (Object.keys(staff_member)[part_of_the_object_used]!="no_more_staff" && Object.keys(staff_member)[part_of_the_object_used]!="no_more_staff_duplicate") { // deal with duplicate
 						place_to_go = Object.keys(staff_member)[part_of_the_object_used]
-						if (Object.keys(staff_member)[part_of_the_object_used].includes("duplicate")) {
+						if (Object.keys(staff_member)[part_of_the_object_used].includes("licate")) {
 							if (Object.keys(staff_member)[part_of_the_object_used]=="trialhelper_duplicate") {
 								place_to_go = "trialhelper";
 							}
@@ -312,7 +312,7 @@ function update() {
 								place_to_go = "guardian";
 							}
 						}
-						//console.log(ligne[place_to_go])
+						console.log(place_to_go)
 						
 						document.getElementById(place_to_go).innerHTML = document.getElementById(place_to_go).innerHTML + staff_member.name + '<br>' // add the name
 					}
