@@ -1051,6 +1051,31 @@ var box = {
 	current_value: "trialhelper",
 	trialhelper: 1596964181,
 }
+var dion = {
+	name: "Dion",
+	current_value: "trialhelper",
+	trialhelper: 1597574832,
+}
+var nougat = {
+	name: "Nougat",
+	current_value: "trialhelper",
+	trialhelper: 1597574832,
+}
+var boris = {
+	name: "Boris",
+	current_value: "trialhelper",
+	trialhelper: 1597574832,
+}
+var lexi37 = {
+	name: "lexi37",
+	current_value: "trialhelper",
+	trialhelper: 1597574832,
+}
+var goldenmc = {
+	name: "Rem", // server nick
+	current_value: "trialhelper",
+	trialhelper: 1597574832,
+}
 
 // mentor list
 
@@ -1655,9 +1680,10 @@ var william_guardian = {
 }
 var myrros_guardian = {
 	name: "Myrros",
-	current_value: "no_more_staff",
+	current_value: "guardian_duplicate",
 	guardian: 1558695429,
-	no_more_staff: 1569841029
+	no_more_staff: 1569841029,
+	guardian_duplicate: 1598006832
 }
 var jan = {
 	name: "Jan",
@@ -1776,7 +1802,26 @@ var teyzeniz = {
 	current_value: "guardian",
 	guardian: 1597440040
 }
-
+var prof_guardian = {
+	name: "ProfXV",
+	current_value: "guardian",
+	guardian: 1598006832
+}
+var sheepy_guardian = {
+	name: "Sheepy",
+	current_value: "guardian",
+	guardian: 1598006832
+}
+var notkar_guardian = {
+	name: "Notkar",
+	current_value: "guardian",
+	guardian: 1598006832
+}
+var lisa_guardian = {
+	name: "Lisa",
+	current_value: "guardian",
+	guardian: 1598006832
+}
 // 1526404669 is 5/15/2018
 // 1528823110 is mentor start
 // 1539594154 is smm start
@@ -1790,7 +1835,7 @@ var discord_staff_list = [ace,thealexgamer,alexrtm,angel,apmai,armads,arnaud,aus
 					omnes,owl,pancake,pumpkin,prominence,prometheus,quinn,rolino,selimrecep,seho,sergiu,sharon,sonblo,surprise,
 					space,squidly,steamy,torochan,tetinowa,tezlie,tytgamer,ubksu,vic,wepi,wire,wood,zevroy,chee,uninstall,sheepy,
 					theking,mindflayer,caps,aspectus,mashi,yan,phoenix,weri,flamingoboi,shadow,groot,mayo,kryptonomega,duden,joko,
-					kinglion,peppa,raji,ricky,lucky,box]
+					kinglion,peppa,raji,ricky,lucky,box,dion,nougat,boris,lexi37,goldenmc]
 
 var mentor_list = [lisa_mentor,mmaarten,maffin_mentor,ratbaby,terka,leo_mentor,chee_mentor,boy,rider,jojolapin,phoenix_mentor,gui,mirreska,
 				amelia,cherry_mentor,hyde_mentor,arnaud_mentor,vasi,ocelot_mentor,sheepy_mentor,brianndm423,sonblo_mentor,prof,louveblanche,
@@ -1801,9 +1846,10 @@ var mentor_list = [lisa_mentor,mmaarten,maffin_mentor,ratbaby,terka,leo_mentor,c
 				zanny,owl_mentor]
 
 var guardian_list = [sharon_guardian,artemiis,kem,ioannis_guardian,mlapine_guardian,prometheus_guardian,lucien_guardian,jort_guardian,
-					casper_guardian,penguin,nottapl,quinn_guardian,miller_guardian,william_guardian,myrros_guardian,
-					jan,alysonn,boy_guardian,koreanking_guardian,catjojo,oliver,renard,sionny,jake,judetta,rikslyde,puigui,anemona,vertrudo,
-					clankfilippo,maya_guardian,pan_guardian,master_guardian,cathy,hubble,ravenw,teyzeniz]
+					casper_guardian,penguin,nottapl,quinn_guardian,miller_guardian,william_guardian,myrros_guardian,jan,alysonn,
+					boy_guardian,koreanking_guardian,catjojo,oliver,renard,sionny,jake,judetta,rikslyde,puigui,anemona,vertrudo,
+					clankfilippo,maya_guardian,pan_guardian,master_guardian,cathy,hubble,ravenw,teyzeniz,prof_guardian,sheepy_guardian,
+					notkar_guardian,lisa_guardian]
 
 var social_media_list = [maffin_smm,chris,chris_tw,lisa_smm,arnaud_smm,hyde_smm,camp_smm,sharon_smm,crush_smm,duden_smm,stef,bunni_smm,maya_smm,
 						lucien_smm,milky_smm,prometheus_smm]
