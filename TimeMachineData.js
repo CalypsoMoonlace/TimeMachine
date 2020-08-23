@@ -1084,7 +1084,7 @@ var lisa_mentor = {
 	current_value: "mentormanager",
 	id: 496744205415219200,
 	mentor: 1549529920,
-	mentormanager: 1566637120
+	mentormanager: 1566862067
 } 
 var mmaarten = {
 	name: "Mmaarten",
@@ -1262,7 +1262,7 @@ var mlapine = { // don't use the "7" else it breaks
 	current_value: "no_more_staff",
 	mentor: 1538232160,
 	mentormanager: 1545921760,
-	no_more_staff: 1566637120
+	no_more_staff: 1566862067
 }
 var ioannis_mentor = {
 	name: "Ioannis",
