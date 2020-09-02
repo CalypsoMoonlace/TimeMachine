@@ -942,10 +942,11 @@ var caps = {
 }
 var aspectus = {
 	name: "Bae",
-	current_value: "helper",
-	id: 346380821462253568,
+	current_value: "no_more_staff",
+	id: 346380821462253568, // deleted acc, new one: 720972354603319376
 	trialhelper: 1589718269,
-	helper: 1594556021
+	helper: 1594556021,
+	no_more_staff: 1598800130
 }
 var mashi = {
 	name: "Mashi",
@@ -1063,8 +1064,9 @@ var nougat = {
 }
 var boris = {
 	name: "Boris",
-	current_value: "trialhelper",
+	current_value: "no_more_staff",
 	trialhelper: 1597574832,
+	no_more_staff: 1598713730
 }
 var lexi37 = {
 	name: "lexi37",
@@ -1076,6 +1078,58 @@ var goldenmc = {
 	current_value: "trialhelper",
 	trialhelper: 1597574832,
 }
+var sujupetalz = {
+	name: "Petalz",
+	current_value: "trialhelper",
+	trialhelper: 1598195330,
+}
+var goldini = {
+	name: "Goldini",
+	current_value: "trialhelper",
+	trialhelper: 1598195330,
+}
+var bunni = {
+	name: "Bunno",
+	current_value: "trialhelper",
+	trialhelper: 1598195330,
+}
+var adren = {
+	name: "Adren",
+	current_value: "no_more_staff",
+	trialhelper: 1598195330,
+	no_more_staff: 1598713730
+} 
+var pan = {
+	name: "IPan",
+	current_value: "trialhelper",
+	trialhelper: 1598800130,
+}
+var amelia_discord = { // first time using a discord suffix
+	name: "Amelia",
+	current_value: "trialhelper",
+	trialhelper: 1598800130,
+}
+var leon = {
+	name: "Leon",
+	current_value: "trialhelper",
+	trialhelper: 1598800130,
+}
+var nachti = {
+	name: "Nachti",
+	current_value: "trialhelper",
+	trialhelper: 1598800130,
+} 
+
+var discord_staff_list = [ace,thealexgamer,alexrtm,angel,apmai,armads,arnaud,aushy,behemoth,bestbud,blep,bluu,boyco,bryduz,brendan,camp,captain,
+					carol,casper,cherry,cloudy,coolguy,copelia,crush,dario,devi,deniz,dievaitis,djocko,dice,doorfruit,dunzap,drakarta,
+					eyal,falvader,geekid,goati,golem,gum,gryduz,henriql,hyde,icy,inky,imge,ivjo,ioannis,ja,jort,johnysaur,kingsho,
+					koreanking,krackjack,kryss,leo,lextrin,lgcc,lisa,levi,lonely_bunny,loyinhung,lucien,maffin,master,martinec,maje,
+					majestic_pink,maya,mh,malex,miller,milky,misterz,min,myrros,nathaniel,necrie,nexo,notkar,obey,ocelot,oldsock,
+					omnes,owl,pancake,pumpkin,prominence,prometheus,quinn,rolino,selimrecep,seho,sergiu,sharon,sonblo,surprise,
+					space,squidly,steamy,torochan,tetinowa,tezlie,tytgamer,ubksu,vic,wepi,wire,wood,zevroy,chee,uninstall,sheepy,
+					theking,mindflayer,caps,aspectus,mashi,yan,phoenix,weri,flamingoboi,shadow,groot,mayo,kryptonomega,duden,joko,
+					kinglion,peppa,raji,ricky,lucky,box,dion,nougat,boris,lexi37,goldenmc,sujupetalz,goldini,bunni,adren,pan,
+					amelia_discord,leon,nachti]
 
 // mentor list
 
@@ -1489,6 +1543,14 @@ var owl_mentor = {
 	no_more_staff: 1534150954 
 }
 
+var mentor_list = [lisa_mentor,mmaarten,maffin_mentor,ratbaby,terka,leo_mentor,chee_mentor,boy,rider,jojolapin,phoenix_mentor,gui,mirreska,
+				amelia,cherry_mentor,hyde_mentor,arnaud_mentor,vasi,ocelot_mentor,sheepy_mentor,brianndm423,sonblo_mentor,prof,louveblanche,
+				weri_mentor,mashi_mentor,raind,tisery,seho_mentor,imge_mentor,cloudy_mentor,jackest,n0ob,mlapine,ioannis_mentor,lucien_mentor,
+				sujupetalz_mentor,wepi_mentor,maya_mentor,sharon_mentor,william,misterz_mentor,apmai_mentor,johnysaur_mentor,karou,nathaniel_mentor,
+				milky_mentor,boyco_mentor,lgcc_mentor,alphaBeauchmin,dolan,khang,cinders,jort_mentor,stops,miller_mentor,casper_mentor,
+				thealexgamer_mentor,discape,moon_mentor,aushy_mentor,brendan_mentor,rolino_mentor,dario_mentor,oldsock_mentor,kryss_mentor,
+				zanny,owl_mentor]
+
 // social media manager list
 
 var maffin_smm = {
@@ -1578,7 +1640,11 @@ var prometheus_smm = {
 	no_more_staff: 1557738154
 }
 
+var social_media_list = [maffin_smm,chris,chris_tw,lisa_smm,arnaud_smm,hyde_smm,camp_smm,sharon_smm,crush_smm,duden_smm,stef,bunni_smm,maya_smm,
+						lucien_smm,milky_smm,prometheus_smm]
+
 // guardian list
+
 var sharon_guardian = {
 	name: "Sharon",
 	current_value: "guardianmanager",
@@ -1746,8 +1812,9 @@ var rikslyde = {
 }
 var puigui = {
 	name: "Puigui",
-	current_value: "guardian",
-	guardian: 1590490629
+	current_value: "no_more_staff",
+	guardian: 1590490629,
+	no_more_staff: 1598627330
 }
 var anemona = {
 	name: "Anemona",
@@ -1822,28 +1889,6 @@ var lisa_guardian = {
 	current_value: "guardian",
 	guardian: 1598006832
 }
-// 1526404669 is 5/15/2018
-// 1528823110 is mentor start
-// 1539594154 is smm start
-// 1530183429 is guard start
-
-var discord_staff_list = [ace,thealexgamer,alexrtm,angel,apmai,armads,arnaud,aushy,behemoth,bestbud,blep,bluu,boyco,bryduz,brendan,camp,captain,
-					carol,casper,cherry,cloudy,coolguy,copelia,crush,dario,devi,deniz,dievaitis,djocko,dice,doorfruit,dunzap,drakarta,
-					eyal,falvader,geekid,goati,golem,gum,gryduz,henriql,hyde,icy,inky,imge,ivjo,ioannis,ja,jort,johnysaur,kingsho,
-					koreanking,krackjack,kryss,leo,lextrin,lgcc,lisa,levi,lonely_bunny,loyinhung,lucien,maffin,master,martinec,maje,
-					majestic_pink,maya,mh,malex,miller,milky,misterz,min,myrros,nathaniel,necrie,nexo,notkar,obey,ocelot,oldsock,
-					omnes,owl,pancake,pumpkin,prominence,prometheus,quinn,rolino,selimrecep,seho,sergiu,sharon,sonblo,surprise,
-					space,squidly,steamy,torochan,tetinowa,tezlie,tytgamer,ubksu,vic,wepi,wire,wood,zevroy,chee,uninstall,sheepy,
-					theking,mindflayer,caps,aspectus,mashi,yan,phoenix,weri,flamingoboi,shadow,groot,mayo,kryptonomega,duden,joko,
-					kinglion,peppa,raji,ricky,lucky,box,dion,nougat,boris,lexi37,goldenmc]
-
-var mentor_list = [lisa_mentor,mmaarten,maffin_mentor,ratbaby,terka,leo_mentor,chee_mentor,boy,rider,jojolapin,phoenix_mentor,gui,mirreska,
-				amelia,cherry_mentor,hyde_mentor,arnaud_mentor,vasi,ocelot_mentor,sheepy_mentor,brianndm423,sonblo_mentor,prof,louveblanche,
-				weri_mentor,mashi_mentor,raind,tisery,seho_mentor,imge_mentor,cloudy_mentor,jackest,n0ob,mlapine,ioannis_mentor,lucien_mentor,
-				sujupetalz_mentor,wepi_mentor,maya_mentor,sharon_mentor,william,misterz_mentor,apmai_mentor,johnysaur_mentor,karou,nathaniel_mentor,
-				milky_mentor,boyco_mentor,lgcc_mentor,alphaBeauchmin,dolan,khang,cinders,jort_mentor,stops,miller_mentor,casper_mentor,
-				thealexgamer_mentor,discape,moon_mentor,aushy_mentor,brendan_mentor,rolino_mentor,dario_mentor,oldsock_mentor,kryss_mentor,
-				zanny,owl_mentor]
 
 var guardian_list = [sharon_guardian,artemiis,kem,ioannis_guardian,mlapine_guardian,prometheus_guardian,lucien_guardian,jort_guardian,
 					casper_guardian,penguin,nottapl,quinn_guardian,miller_guardian,william_guardian,myrros_guardian,jan,alysonn,
@@ -1851,15 +1896,16 @@ var guardian_list = [sharon_guardian,artemiis,kem,ioannis_guardian,mlapine_guard
 					clankfilippo,maya_guardian,pan_guardian,master_guardian,cathy,hubble,ravenw,teyzeniz,prof_guardian,sheepy_guardian,
 					notkar_guardian,lisa_guardian]
 
-var social_media_list = [maffin_smm,chris,chris_tw,lisa_smm,arnaud_smm,hyde_smm,camp_smm,sharon_smm,crush_smm,duden_smm,stef,bunni_smm,maya_smm,
-						lucien_smm,milky_smm,prometheus_smm]
+// 1526404669 is 5/15/2018
+// 1528823110 is mentor start
+// 1539594154 is smm start
+// 1530183429 is guard start
 
 var whole_staff_list = [discord_staff_list,mentor_list,guardian_list,social_media_list]
 
 var special_dates = [staff_birthdays,other_dates]
 
 var staff_birthdays = {
-	Bae: "4/1",
 	ProfXV: "15/1",
 	Necrie: "20/1",
 	Emanuel: "21/1",
